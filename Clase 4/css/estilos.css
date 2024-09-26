@@ -1,0 +1,31 @@
+body{
+    background-image: url("/img/Fondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h2, label{
+    font-family: "Amaranth", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: azure;
+}
+
+img{
+    width: 200px;
+    border-radius: 5%;
+    transition: 1s;
+    margin-top: 1em;
+}
+img:hover{
+    width: 250px;
+}
+
+.row{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.499);
+    border: 2px solid #432818;
+    border-radius: 2%;
+}
+.txt{
+    margin-left: 1em;
+}
