@@ -1,0 +1,17 @@
+.box1{
+    padding: 10px; /* Todos los lados */
+    padding: 10px 20px; /* Superior e inferior: 10px, izquierda y derecha: 20px */
+    padding-top: 5px; /* Solo el lado superior */
+}
+
+.box2{
+    margin: 10px; /* Todos los lados */
+    margin-left: 5px; /* Solo el lado izquierdo */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.box3{
+    border: 2px solid black;
+    border: 5px dashed red;
+}
+
