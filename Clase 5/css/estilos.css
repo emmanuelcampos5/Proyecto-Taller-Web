@@ -1,0 +1,131 @@
+body {
+    background-image: url("/Clase 4/img/Fondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: block;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+
+    color: rgb(129, 91, 91);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p,
+a {
+    font-size: 30px;
+}
+
+h2,
+label {
+    font-family: "Amaranth", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(129, 91, 91);
+}
+
+input,
+select,
+option {
+    height: 45px;
+    font-size: x-large;
+}
+
+img {
+    height: 200px;
+    border-radius: 5%;
+    transition: 0.5s;
+    margin-left: 1em;
+}
+
+#hipo {
+    width: 200px;
+}
+
+#hipo:hover {
+    width: 250px;
+}
+
+img:hover {
+    height: 250px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(240, 248, 255, 0.234);
+
+    border: 2px solid #432818;
+    border-radius: 2%;
+
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.txt {
+    margin: 0em 5em 2em 5em;
+}
+
+.wrapper {
+    background-color: rgba(240, 248, 255, 0.239);
+
+    width: 800px;
+    padding-bottom: 25px;
+    margin-left: 30%;
+    border: 2px solid rgb(65, 50, 51);
+}
+
+.formulario h2,
+p {
+    display: flex;
+    justify-content: center;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+}
+
+.selection label {
+    text-align: center;
+}
+
+select {
+    margin-left: 320px;
+    background: #c2aea263;
+}
+
+form input {
+    margin-left: 150px;
+}
+
+form .info {
+    background: #c2aea263;
+    border: none;
+    border-bottom: 4px solid rgba(122, 87, 87, 0.751);
+    color: rgb(129, 91, 91);
+    width: 500px;
+}
+
+.wrapper form #boton {
+    margin-left: 295px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: rgb(119, 96, 96);
+    color: white;
+
+    transition: 0.5s;
+}
+
+.wrapper form #boton:hover {
+    background-color: rgb(86, 57, 33);
+}
