@@ -25,6 +25,7 @@ if(edad >= 18){
 }
 
 console.log(isMayor);
+
 document.getElementById('numero1').innerHTML = (numero1);
 document.getElementById('numero2').innerHTML = (numero2);
 document.getElementById('resultado').innerHTML = (resultado);
@@ -38,6 +39,16 @@ if(edad >= 18){
 if(isMayor){
     document.getElementById('mensaje2').innerHTML = "Eres mayor de edad";
 }
+
+if(edad >= 18){
+    document.getElementById('mensaje1').innerHTML = "Eres mayor de edad";
+}
+
+if(isMayor){
+    document.getElementById('mensaje2').innerHTML = "Eres mayor de edad";
+}
+
+document.getElementById('contenedor').innerHTML = '<button style="color:white">Guardar</button>';
 
 
 
