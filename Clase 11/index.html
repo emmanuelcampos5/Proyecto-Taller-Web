@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero!</title>
+</head>
+
+<body>
+
+    <h1>Adivina el numero!</h1>
+
+    <p>Ingresa un numero entre 1 y 10: </p>
+    <input id="numeroUsuario" placeholder="Tu numero">
+
+    <button onclick="comparar()">Comparar</button>
+
+    <h2 id="resultado"></h2>
+
+    <script>
+        const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+        console.log("Numero generado: ", numeroAleatorio)
+
+        function comparar() {
+            const numeroUsuario = parseInt(document.getElementById('numeroUsuario').value)
+
+            if (isNaN(numeroUsuario) || numeroUsuario < 1 || numeroUsuario > 10) {
+                document.getElementById('resultado').textContent = 'Ingresa un numero valido'
+                return;
+            }
+
+            if (numeroUsuario === numeroAleatorio) {
+                document.getElementById('resultado').textContent = 'Felicidades! Ganaste!'
+            } else {
+                document.getElementById('resultado').textContent = `El numero era ${numeroAleatorio}`
+            }
+        }
+    </script>
+
+</body>
+
+</html>
