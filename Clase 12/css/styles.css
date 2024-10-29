@@ -1,0 +1,78 @@
+body {
+    background: url(/img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #000;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+    color: white;
+    font-size: x-large;
+    height: 500px;
+    width: 400px;
+    margin-top: 10%;
+    padding: 20px;
+
+    display: grid;
+    justify-content: center;
+}
+
+.formulario {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+    border: none;
+    border-radius: 15px;
+
+    &#username {
+        margin-bottom: 20px;
+    }
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-left: 35%;
+
+    border: none;
+    border-radius: 15px;
+
+    font-size: 20px;
+
+    &:hover {
+        background-color: rgba(7, 46, 64, 0.723);
+        color: white;
+    }
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
